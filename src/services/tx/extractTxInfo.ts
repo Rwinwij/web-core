@@ -1,5 +1,5 @@
-import type { OperationType } from '@safe-global/safe-core-sdk-types'
-import { type SafeTransactionData } from '@safe-global/safe-core-sdk-types'
+import type { OperationType } from '@rwinwij/safe-core-sdk-types'
+import { type SafeTransactionData } from '@rwinwij/safe-core-sdk-types'
 import type { TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { Operation } from '@safe-global/safe-gateway-typescript-sdk'
 import { isMultisigDetailedExecutionInfo, isNativeTokenTransfer } from '@/utils/transaction-guards'

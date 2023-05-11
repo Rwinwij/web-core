@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import type { SafeTransaction, SafeSignature } from '@safe-global/safe-core-sdk-types'
-import type Safe from '@safe-global/safe-core-sdk'
+import type { SafeTransaction, SafeSignature } from '@rwinwij/safe-core-sdk-types'
+import type Safe from '@rwinwij/safe-core-sdk'
 
 import * as sdk from '@/hooks/coreSDK/safeCoreSDK'
 import { act, renderHook } from '@/tests/test-utils'

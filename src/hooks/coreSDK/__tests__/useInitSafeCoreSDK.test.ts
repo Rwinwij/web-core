@@ -7,7 +7,7 @@ import * as useOnboard from '@/hooks/wallets/useOnboard'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import type { EIP1193Provider, OnboardAPI } from '@web3-onboard/core'
 import { act } from '@testing-library/react'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@rwinwij/safe-core-sdk'
 
 describe('useInitSafeCoreSDK hook', () => {
   const mockSafeInfo = {

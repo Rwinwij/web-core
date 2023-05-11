@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import type { TransactionSummary } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@rwinwij/safe-core-sdk-types'
 
 import useSafeInfo from '@/hooks/useSafeInfo'
 import { useChainId } from '@/hooks/useChainId'

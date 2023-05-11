@@ -1,8 +1,8 @@
-import { generatePreValidatedSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
-import EthSafeTransaction from '@safe-global/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import { generatePreValidatedSignature } from '@rwinwij/safe-core-sdk/dist/src/utils/signatures'
+import EthSafeTransaction from '@rwinwij/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
+import { encodeMultiSendData } from '@rwinwij/safe-core-sdk/dist/src/utils/transactions/utils'
 import { FEATURES, type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { MetaTransactionData, SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { MetaTransactionData, SafeTransaction } from '@rwinwij/safe-core-sdk-types'
 
 import {
   getMultiSendCallOnlyContractInstance,

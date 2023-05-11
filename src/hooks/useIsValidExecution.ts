@@ -1,4 +1,4 @@
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@rwinwij/safe-core-sdk-types'
 import type { BigNumber } from 'ethers'
 import type { EthersError } from '@/utils/ethers-utils'
 

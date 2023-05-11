@@ -1,5 +1,5 @@
 import type { SafeInfo, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeTransaction, TransactionOptions, TransactionResult } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction, TransactionOptions, TransactionResult } from '@rwinwij/safe-core-sdk-types'
 import type { Web3Provider } from '@ethersproject/providers'
 import type { EthersError } from '@/utils/ethers-utils'
 import { didReprice, didRevert } from '@/utils/ethers-utils'

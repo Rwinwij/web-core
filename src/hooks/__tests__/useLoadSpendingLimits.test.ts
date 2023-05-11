@@ -1,6 +1,6 @@
 import * as spendingLimit from '@/services/contracts/spendingLimitContracts'
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { ZERO_ADDRESS } from '@rwinwij/safe-core-sdk/dist/src/utils/constants'
 import type { AllowanceModule } from '@/types/contracts'
 import { ERC20__factory } from '@/types/contracts'
 import {

@@ -12,7 +12,7 @@ import { sameAddress } from '@/utils/addresses'
 import { ERC20__factory } from '@/types/contracts'
 import type { AllowanceModule } from '@/types/contracts'
 
-import { sameString } from '@safe-global/safe-core-sdk/dist/src/utils'
+import { sameString } from '@rwinwij/safe-core-sdk/dist/src/utils'
 import { useAppSelector } from '@/store'
 import { selectTokens } from '@/store/balancesSlice'
 import { isEqual } from 'lodash'

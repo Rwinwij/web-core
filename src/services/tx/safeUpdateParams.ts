@@ -1,5 +1,5 @@
-import type { MetaTransactionData } from '@safe-global/safe-core-sdk-types'
-import { OperationType } from '@safe-global/safe-core-sdk-types'
+import type { MetaTransactionData } from '@rwinwij/safe-core-sdk-types'
+import { OperationType } from '@rwinwij/safe-core-sdk-types'
 import type GnosisSafeContractEthers from '@safe-global/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
 import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { getFallbackHandlerContractInstance, getGnosisSafeContractInstance } from '@/services/contracts/safeContracts'

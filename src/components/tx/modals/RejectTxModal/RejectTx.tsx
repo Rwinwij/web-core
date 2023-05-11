@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import { Typography } from '@mui/material'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@rwinwij/safe-core-sdk-types'
 
 import useTxSender from '@/hooks/useTxSender'
 import useAsync from '@/hooks/useAsync'

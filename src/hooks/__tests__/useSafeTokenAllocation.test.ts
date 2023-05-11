@@ -3,7 +3,7 @@ import { defaultAbiCoder, hexZeroPad, keccak256, parseEther, toUtf8Bytes } from 
 import useSafeTokenAllocation from '../useSafeTokenAllocation'
 import * as web3 from '../wallets/web3'
 import * as useSafeInfoHook from '@/hooks/useSafeInfo'
-import { ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { ZERO_ADDRESS } from '@rwinwij/safe-core-sdk/dist/src/utils/constants'
 import { BigNumber } from 'ethers'
 
 const setupFetchStub =

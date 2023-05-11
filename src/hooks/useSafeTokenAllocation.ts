@@ -1,5 +1,5 @@
 import { getSafeTokenAddress } from '@/components/common/SafeTokenWidget'
-import { ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { ZERO_ADDRESS } from '@rwinwij/safe-core-sdk/dist/src/utils/constants'
 import { isPast } from 'date-fns'
 import { BigNumber } from 'ethers'
 import { defaultAbiCoder, Interface } from 'ethers/lib/utils'
